@@ -7,14 +7,14 @@
   text-align: center;
 }
 .btn-primary {
-  background-color: #0e9ba5;
+  background-color: #0283a2;
   border-color: #0e9ba5;
 }
 a {
-  color: #0e9ba5;
+  color: #0283a2;
 }
 .card {
-  background-color: #4ee78e;
+  background-color: #61ea93;
   border: inherit;
   border-radius: inherit;
   height: -webkit-fill-available;
@@ -22,7 +22,7 @@ a {
   align-self: center;
 }
 #fond {
-  background: url(https://img00.deviantart.net/7ea6/i/2014/331/9/b/icarus_orbital_station__4k__by_madaboutgames-d87uygr.jpg) no-repeat center center fixed; 
+  background: url(../autre/1032111.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
