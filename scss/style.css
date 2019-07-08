@@ -9,6 +9,8 @@
 .btn-primary {
   background-color: #0283a2;
   border-color: #0e9ba5;
+  width: 50%;
+  display: initial;
 }
 a {
   color: #0283a2;
@@ -50,11 +52,14 @@ a {
 
 /******* Media *******/
 @media (max-width: 680px) { 
-  h2 {
-      font-size: 25px;
+  h1 {
+      font-size: 20px;
   }
   #disp-no {
       display: none;
   }
-
+  .col-7 {
+    max-width: inherit;
+    flex: none;
+  }
   }
