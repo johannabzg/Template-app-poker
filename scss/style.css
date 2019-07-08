@@ -1,0 +1,60 @@
+/***************COMMUN**/
+.title-heading {
+  color: #ffff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.377);
+}
+.center {
+  text-align: center;
+}
+.btn-primary {
+  background-color: #0e9ba5;
+  border-color: #0e9ba5;
+}
+a {
+  color: #0e9ba5;
+}
+.card {
+  background-color: #4ee78e;
+  border: inherit;
+  border-radius: inherit;
+  height: -webkit-fill-available;
+  justify-content: center;
+  align-self: center;
+}
+#fond {
+  background: url(https://img00.deviantart.net/7ea6/i/2014/331/9/b/icarus_orbital_station__4k__by_madaboutgames-d87uygr.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.alert {
+  margin: inherit;
+}
+/*************Page 1**/
+.form-signin {
+  padding: 15px 35px 45px;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+}
+.form-signin .form-control {
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/************Page 2**/
+
+/******* Media *******/
+@media (max-width: 680px) { 
+  h2 {
+      font-size: 25px;
+  }
+  #disp-no {
+      display: none;
+  }
+
+  }

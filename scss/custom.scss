@@ -1,0 +1,43 @@
+// Import scss bootstrap
+@import "./bootstrap/dist/css/bootstrap.css";
+@import "./bootstrap/scss/bootstrap.scss";
+@import "./bootstrap/scss/_variables.scss";
+@import "./bootstrap/scss/bootstrap-grid.scss";
+
+// Custom.scss Johanna.B
+
+$body-bg:rgb(101, 199, 92);
+
+$theme-colors: (
+  "primary": #dd4242,
+  "danger": #db4c45
+);
+
+.card {
+  background-color: #4ee78e;
+}
+
+.center {
+  text-align: center;
+}
+
+.form-signin {
+  padding: 15px 35px 45px;
+}
+
+.title-heading {
+  color: #ffff;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 30px;
+}
+
+.form-signin .form-control {
+  height: auto;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
